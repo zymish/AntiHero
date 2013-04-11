@@ -1,0 +1,7 @@
+ul {list-style:none;}
+ul > li > ul {padding:0;margin:0;}
+ul > li > ul > li {padding:3px 0 3px 10px; overflow:hidden;text-overflow:ellipsis;height:20px;white-space:nowrap;}
+.active > a, .active > a:hover, .active > a:focus {background-color:#0088cc;color:#ffffff;text-shadow:0 -1px r rgba(0,0,0,0.2);}
+.posts-table tr td {height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.posts-table tr td:first-child {width:200px;display:inline-block;}
+#content {padding:5px;}
